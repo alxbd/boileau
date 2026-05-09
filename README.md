@@ -46,7 +46,7 @@ Le skill s'inspire de la structure du guide [Wikipedia:Signs of AI writing](http
 
 ## Installation
 
-Ce skill est compatible avec Claude Code (et tout client supportant le format SKILL.md).
+Boileau suit le format SKILL.md, désormais reconnu par plusieurs agents IA (Claude Code, OpenAI Codex CLI, GitHub Copilot CLI, Google Gemini CLI, Cursor…). Voir la section correspondant au client utilisé. Pour une installation portable entre plusieurs clients, voir [Installation inter-clients](#installation-inter-clients) plus bas.
 
 ### Pour Claude Code (utilisateur courant)
 
@@ -69,6 +69,60 @@ mkdir -p .claude/skills
 cd .claude/skills
 git clone git@github.com:alxbd/boileau.git
 ```
+
+### Pour OpenAI Codex CLI
+
+Codex lit les skills depuis `~/.agents/skills/` (utilisateur) et `.agents/skills/` (racine de repo) :
+
+```bash
+mkdir -p ~/.agents/skills
+cd ~/.agents/skills
+git clone git@github.com:alxbd/boileau.git
+```
+
+Pour un projet Codex spécifique, cloner plutôt dans `.agents/skills/` à la racine du repo.
+
+### Pour GitHub Copilot CLI
+
+Copilot CLI accepte `~/.copilot/skills/` ou `~/.agents/skills/` côté utilisateur, et `.github/skills/`, `.claude/skills/` ou `.agents/skills/` côté projet :
+
+```bash
+mkdir -p ~/.copilot/skills
+cd ~/.copilot/skills
+git clone git@github.com:alxbd/boileau.git
+```
+
+### Pour Google Gemini CLI
+
+Gemini CLI lit `~/.gemini/skills/` ou `~/.agents/skills/` (utilisateur), et `.gemini/skills/` ou `.agents/skills/` (projet) :
+
+```bash
+mkdir -p ~/.gemini/skills
+cd ~/.gemini/skills
+git clone git@github.com:alxbd/boileau.git
+```
+
+### Pour Cursor
+
+Cursor lit `~/.cursor/skills/` ou `~/.agents/skills/` (utilisateur), et `.cursor/skills/` ou `.agents/skills/` (projet) :
+
+```bash
+mkdir -p ~/.cursor/skills
+cd ~/.cursor/skills
+git clone git@github.com:alxbd/boileau.git
+```
+
+### Installation inter-clients
+
+Codex CLI, Copilot CLI, Gemini CLI et Cursor reconnaissent tous le chemin standard `~/.agents/skills/` (utilisateur) et `.agents/skills/` (projet). C'est l'emplacement le plus portable pour qui jongle entre plusieurs clients :
+
+```bash
+mkdir -p ~/.agents/skills
+cd ~/.agents/skills
+git clone git@github.com:alxbd/boileau.git
+```
+
+Note : Claude Code n'utilise pas `~/.agents/skills/`. Pour rendre Boileau aussi disponible dans Claude Code, ajouter en plus l'installation Claude Code ci-dessus (ou créer un lien symbolique entre les deux dossiers).
 
 ## Utilisation
 
