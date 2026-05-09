@@ -1,0 +1,35 @@
+# Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+
+# Cursor
+.cursor/
+.cursorrules
+.cursorignore
+
+# GitHub Copilot
+.github/copilot-instructions.md
+
+# Aider
+.aider*
+.aiderignore
+
+# Continue
+.continue/
+
+# Codeium / Windsurf
+.codeium/
+.windsurf/
+.windsurfrules
+
+# Cline / Roo
+.clinerules
+.roo/
+.roorules
+
+# Generic AI agents
+AGENTS.md
+GEMINI.md
+.gemini/
+.openai/
