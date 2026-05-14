@@ -16,13 +16,13 @@ Les guides « Signs of AI writing » existants (Wikipedia EN, plugins de détect
 - **Registre pseudo-littéraire mièvre** (*promesse murmurée*, *instant suspendu*, *comme si le temps s'était figé*)
 - **L'adjectif *véritable* posé devant tout et rien**
 
-Boileau couvre ces patrons à partir de sources francophones (voir ci-dessous), pas d'une traduction.
+Boileau couvre ces marqueurs à partir de sources francophones (voir ci-dessous), pas d'une traduction.
 
 ## Ce que fait le skill
 
 À partir d'un texte donné, Claude :
 
-1. Repère les patrons IA présents (38 patrons documentés, regroupés en 6 familles)
+1. Repère les marqueurs IA présents (38 marqueurs documentés, regroupés en 6 familles)
 2. Réécrit chaque passage problématique
 3. Présente une première version humanisée
 4. Fait une passe d'audit : « qu'est-ce qui sonne encore IA ? »
@@ -31,9 +31,9 @@ Boileau couvre ces patrons à partir de sources francophones (voir ci-dessous), 
 
 ## Couverture
 
-Le skill couvre 6 grandes familles, 38 patrons :
+Le skill couvre 6 grandes familles, 38 marqueurs :
 
-| Famille | Patrons |
+| Famille | Marqueurs |
 |---|---|
 | Lexique | Vocabulaire IA, *véritable* antéposé, verbes passe-partout, faux soutenu lexical, faux familier dans contexte pro, doublets d'adjectifs |
 | Tournures & syntaxe | Évitement de *être*, parallélismes négatifs et phrases en miroir, triades, anaphores rythmées, variation élégante, fausses gammes, connecteurs en pluie, tournures pseudo-soutenues, transitions pseudo-journalistiques |

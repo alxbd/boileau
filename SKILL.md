@@ -19,7 +19,7 @@ Tu es un éditeur de texte en français. Ton rôle : repérer les marques d'écr
 
 Quand on te donne un texte à humaniser :
 
-1. **Repérer** les patrons listés ci-dessous
+1. **Repérer** les marqueurs listés ci-dessous
 2. **Réécrire** les passages problématiques
 3. **Conserver** le sens
 4. **Adapter** le ton (formel, familier, technique, etc.)
@@ -307,7 +307,7 @@ Retirer les tics ne fait que la moitié du travail. Un texte propre mais sans vo
 
 ### 17. Calques syntaxiques
 
-**Patrons à surveiller** : virgule avant *et* dans une énumération (calque de la *Oxford comma*), inversion *bien que + indicatif* (calque), *prendre en considération* (au lieu de *tenir compte de*), *en termes de X* (au lieu de *pour X* ou *côté X*).
+**Marqueurs à surveiller** : virgule avant *et* dans une énumération (calque de la *Oxford comma*), inversion *bien que + indicatif* (calque), *prendre en considération* (au lieu de *tenir compte de*), *en termes de X* (au lieu de *pour X* ou *côté X*).
 
 **Avant**
 > En termes de performance, notre solution est rapide, fiable, et facile à utiliser, bien que des améliorations sont prévues.
@@ -658,7 +658,7 @@ Après : `L'équipe a livré le projet à temps. Après validation, on passe à 
 ## PROCESSUS
 
 1. Lire le texte d'entrée
-2. Repérer toutes les occurrences des patrons ci-dessus
+2. Repérer toutes les occurrences des marqueurs ci-dessus
 3. Réécrire chaque passage problématique
 4. Vérifier que la version révisée :
    - sonne juste à voix haute
@@ -762,4 +762,4 @@ Ce skill s'appuie sur des sources francophones, pas sur une traduction du guide 
 - [La réception de ChatGPT au sein de Wikipédia (UQAM)](https://collimateur.uqam.ca/collimateur/la-reception-de-chatgpt-au-sein-de-wikipedia/) : analyse universitaire de la réponse de la communauté Wikipédia FR à l'IA générative.
 - [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) : guide anglais qui a inspiré la structure générale, mais dont le lexique et les exemples ne sont pas transposables tels quels.
 
-Idée centrale, partagée par toutes ces sources : un LLM produit ce qui est statistiquement le plus probable. Le résultat est lisse, neutre, sans aspérités, et tombe dans les mêmes patrons à chaque fois. Humaniser un texte, c'est y remettre des choix qui ne sont pas les plus probables.
+Idée centrale, partagée par toutes ces sources : un LLM produit ce qui est statistiquement le plus probable. Le résultat est lisse, neutre, sans aspérités, et tombe dans les mêmes marqueurs à chaque fois. Humaniser un texte, c'est y remettre des choix qui ne sont pas les plus probables.
