@@ -1,9 +1,24 @@
-# Boileau
+<h1 align="center">Boileau</h1>
 
-Un skill Claude Code pour repérer et corriger les marques d'écriture par IA dans un texte en français.
+<p align="center">
+  <b>Un skill pour repérer et corriger les marques d'écriture par IA dans un texte en français.</b>
+</p>
 
-> Ce que l'on conçoit bien s'énonce clairement, et les mots pour le dire arrivent aisément.
-> Nicolas Boileau, *L'Art poétique* (1674)
+<p align="center">
+  <i>« Ce que l'on conçoit bien s'énonce clairement,<br>
+  et les mots pour le dire arrivent aisément. »<br>
+  — Nicolas Boileau, <i>L'Art poétique</i> (1674)</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/couverture-38_marqueurs_%C2%B7_6_familles-brightgreen" alt="38 marqueurs · 6 familles">
+  <img src="https://img.shields.io/badge/langue-fran%C3%A7ais_uniquement-blue" alt="Français uniquement">
+  <a href="https://github.com/alxbd/boileau/blob/main/LICENSE"><img src="https://img.shields.io/github/license/alxbd/boileau?style=flat&color=blue" alt="License"></a>
+</p>
+
+<br />
+
+---
 
 ## Pourquoi
 
