@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "boileau",
+  "owner": {
+    "name": "alxbd",
+    "url": "https://github.com/alxbd"
+  },
+  "description": "Installer Boileau comme plugin Claude Code.",
+  "plugins": [
+    {
+      "name": "boileau",
+      "source": "./",
+      "description": "Repère et corrige les marques d'écriture par IA dans un texte en français.",
+      "license": "MIT",
+      "keywords": ["writing", "editing", "french", "humanize", "prose"]
+    }
+  ]
+}

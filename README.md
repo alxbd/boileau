@@ -63,6 +63,17 @@ Le skill s'inspire de la structure du guide [Wikipedia:Signs of AI writing](http
 
 Boileau suit le format SKILL.md, désormais reconnu par plusieurs agents IA (Claude Code, OpenAI Codex CLI, GitHub Copilot CLI, Google Gemini CLI, Cursor…). Voir la section correspondant au client utilisé. Pour une installation portable entre plusieurs clients, voir [Installation inter-clients](#installation-inter-clients) plus bas.
 
+### Pour Claude Code (plugin)
+
+Le dépôt sert aussi de marketplace Claude Code. Depuis une session :
+
+```
+/plugin marketplace add alxbd/boileau
+/plugin install boileau@boileau
+```
+
+Le plugin se met à jour avec `/plugin marketplace update boileau`.
+
 ### Pour Claude Code (utilisateur courant)
 
 Cloner le repo dans le dossier des skills personnels :
