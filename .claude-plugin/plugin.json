@@ -1,0 +1,14 @@
+{
+  "name": "boileau",
+  "description": "Repère et corrige les marques d'écriture par IA dans un texte en français.",
+  "version": "0.1.0",
+  "author": {
+    "name": "alxbd",
+    "url": "https://github.com/alxbd"
+  },
+  "homepage": "https://github.com/alxbd/boileau",
+  "repository": "https://github.com/alxbd/boileau",
+  "license": "MIT",
+  "keywords": ["writing", "editing", "french", "humanize", "prose"],
+  "skills": ["./"]
+}
